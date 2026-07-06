@@ -1,0 +1,13 @@
+[package]
+name = "gh-achievements"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "gh-achievements"
+path = "src/main.rs"
+
+[dependencies]
+
+[profile.release]
+opt-level = 2
